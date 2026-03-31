@@ -6,8 +6,14 @@ application that allows users to create, update, delete and filter tasks.
 Built with React (frontend) and Spring Boot (backend), with PostgreSQL for data persistence.
 
 ## Screenshots 
+
+### Main View
 ![Task Manager](screenshots/main.png)
+
+### Edit Task
 ![Task Manager](screenshots/edit.png)
+
+### Completed Tasks
 ![Task Manager](screenshots/completed.png)
 
 A fullstack task manager built using React and Spring Boot.
@@ -68,7 +74,7 @@ Frontend runs on:
 
 http://localhost:5174
 
-## Format API Endpoints properly
+## API Endpoints
 
 | Method | Endpoint     | Discription   |
 |--------|--------------|---------------|
@@ -90,13 +96,23 @@ POST /tasks
 ```
 
 
-
 ## Future Improvements
 
 - Add authentication (login/signup)
--Add due dates for tasks
--Add search functionality
+- Add due dates for tasks
+- Add search functionality
 - Improve UI/UX design
+
+## How It Works
+
+- React frontend communicates with Spring Boot REST API
+- Backend handles CRUD operations for tasks
+- PostgreSQL stores task data
+- Users can create, update, delete and filter tasks
+
+
+## Live Demo
+Coming soon!
 
 ## Author
 Natasha Roetz
