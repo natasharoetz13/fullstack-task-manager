@@ -52,7 +52,7 @@ Update your `application.roperties`:
 ./mvnw spring-boot:run
 ```
 
-backend runs on:
+Backend runs on:
 
 http://localhost:8080
 
@@ -83,8 +83,8 @@ POST /tasks
 
 ```json
 {
-"title: "Learn React",
-"completed: false
+"title": "Learn React",
+"completed": false
 }
 
 ```
