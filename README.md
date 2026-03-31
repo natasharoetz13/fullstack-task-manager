@@ -42,7 +42,7 @@ Container: Docker
 ## Database Setup
 Make sure PostgreSQL is running.
 
-Update your `application.roperties`:
+Update your `application.properties`:
 
 
 
